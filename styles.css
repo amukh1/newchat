@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(134, 255, 134);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding-top: 10vh;
+}
+
+.lh {
+    text-align: left;
+    font-size: 3rem;
+    margin-left: 25%;
+}
+
+.h {
+font-size: 2.5rem;
+}
+
+.disc {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1rem;
+}
+
+.in {
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    top: 0px;
+}
+
+
+
+.in:hover {
+    position: relative;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    /* border-color: rgb(0, 89, 255); */
+    border-style: solid;
+    top: -10px;
+}
+
+
+.but {
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.but:hover {
+    position: relative;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    /* border-color: rgb(0, 89, 255); */
+    border-style: solid;
+    top: -7px;
+}
+
+
+.cred {
+    font-size: 1.5rem;
+    margin-top: 5%;
+}

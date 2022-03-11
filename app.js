@@ -1,6 +1,6 @@
 
 
-var p1 = prompt('Enter your name', 'Your name');
+var p1 = window.localStorage.getItem('first')
  var last = 'deff';
 
 function send(h) {

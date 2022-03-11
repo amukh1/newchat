@@ -1,7 +1,7 @@
 
 
 var p1 = prompt('Enter your name', 'Your name');
-let last = 'deff';
+ var last = 'deff';
 
 function send(h) {
     fetch(`https://dis.amukh1.dev/new?name=${p1}&msg=${document.getElementById('msg').value}`)

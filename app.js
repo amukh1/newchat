@@ -1,5 +1,4 @@
-var ver = '1.1'
-document.getElementById('ver').innerHTML = ver
+
 
 var p1 = prompt('Enter your name', 'Your name');
 let last = 'deff';

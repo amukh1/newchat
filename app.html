@@ -10,7 +10,7 @@
 <body>
     <div class="nav">South Fayette chat</div>
     <div class="main">
-        <div class="messages">
+        <div class="messages" id="msgs">
             <div class="message">
                 <div class="user">Amukh1</div>
                 <div class="mess">Message.</div>
@@ -27,9 +27,45 @@
             </div>
         </div>
         <div class="impsend">
-            <input type="text" class=" in" placeholder="message">
-            <button class="send but">></button>
+            <input type="text" class="in"  id="msg" placeholder="message">
+            <button class="send but" onclick="send(this)">></button>
         </div>
     </div>
+    <script src="app.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="nav">South Fayette chat</div>
+    <div class="main">
+        <div class="messages" id="msgs">
+            <div class="message">
+                <div class="user">Amukh1</div>
+                <div class="mess">Message.</div>
+            </div>
+
+            <div class="message">
+                <div class="user">Amukh1</div>
+                <div class="mess">I love this app its so coool</div>
+            </div>
+
+            <div class="message">
+                <div class="user">Amukh1</div>
+                <div class="mess">Ikr</div>
+            </div>
+        </div>
+        <div class="impsend">
+            <input type="text" class="in"  id="msg" placeholder="message">
+            <button class="send but" onclick="send(this)">></button>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
